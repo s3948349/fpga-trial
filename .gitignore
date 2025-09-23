@@ -1,19 +1,29 @@
-# Vivado build junk
+# Vivado project files to ignore
 *.jou
 *.log
 *.str
 *.rpx
 *.xpr
 *.xpr.lock
-*.runs/
+
+# Vivado generated folders
 *.cache/
 *.hw/
-*.sim/
 *.ip_user_files/
+*.sim/
+*.runs/
 *.gen/
-*.data/
 *.srcs/
-*.srcs/*
+*.data/
+*.webtalk/
+*.dcp
+
+# Incremental builds, checkpoints
+*.ltx
+*.bit
+*.bin
+*.mmi
+*.svf
 
 # Temporary files
 *.tmp
@@ -21,6 +31,6 @@
 *.swp
 *~
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
