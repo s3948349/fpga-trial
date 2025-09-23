@@ -14,7 +14,6 @@
 *.data/
 *.srcs/
 *.srcs/*
-*.xdc
 
 # Temporary files
 *.tmp
